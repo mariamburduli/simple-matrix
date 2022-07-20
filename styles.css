@@ -9,8 +9,6 @@ html, body {
     height: 100%;
 }
 
-#wrapper {
-}
 
 #wrapper .row {
     display: flex;
@@ -20,7 +18,12 @@ html, body {
 #wrapper .row .box {
     width: 60px;
     height: 60px;
-    background-color: red;
+    background-color: black;
     margin-bottom: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
+#wrapper .row .box.active {
+    background-color: hotpink;
+}
+#wrapper .row:nth-child(2) .box:nth-child(2)
